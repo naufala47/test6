@@ -54,5 +54,22 @@ export default StyleSheet.create({
         color: "#788eec",
         fontWeight: "bold",
         fontSize: 16
+    },
+    text: {
+        paddingTop: 50,
+        textAlign: 'center',
+        padding: 20
+    },
+    itemContainer: {
+        flexDirection: 'row',
+        marginTop: 20,
+        backgroundColor: '#d4d4d6'
+    },
+    textWrapper: {
+        padding: 5
+    },
+    textWrappers: {
+        padding: 5,
+        color: "#788eec"
     }
 })

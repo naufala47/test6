@@ -54,21 +54,17 @@ class List extends Component {
                     <FlatList
                         data={this.state.datas}
                         renderItem={({ item }) =>
-                            <View >
+                            <View style={styles.itemContainer} >
                                 <View>
                                     <Image source={{ uri: item.urlDownload }} style={{ width: 80, height: 80 }} />
                                 </View>
                                 <View>
-                                    <Text > {item.name}</Text>
-                                    <Text > {item.gender} /{item.umur} tahun</Text>
-                                </View>
-                                <View>
-                                    <Text > {item.status}</Text>
-
+                                    <Text style={styles.textWrappers} onPress={() => this.props.navigation.navigate('Edit')}> {item.name}</Text>
+                                    <Text style={styles.textWrapper}> {item.gender} /{item.umur} tahun</Text>
+                                    <Text style={styles.textWrapper}> {item.status}</Text>
                                 </View>
                             </View>
                         }
-
                     />
                 </KeyboardAwareScrollView>
             </View>

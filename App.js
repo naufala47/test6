@@ -12,6 +12,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Tambah from './Page/Tambah/Tambah';
 import List from './Page/List/List';
+import Edit from './Page/Edit/Edit';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Stack.Navigator initialRouteName="">
           <Stack.Screen name="List" component={List} options={{ title: '' }} />
           <Stack.Screen name="Tambah" component={Tambah} options={{ title: '' }} />
+          <Stack.Screen name="Edit" component={Edit} options={{ title: '' }} />
         </Stack.Navigator>
       </NavigationContainer>
     )
