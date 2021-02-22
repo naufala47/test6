@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "380923995430",
+    "firebase_url": "https://nativeahmad-default-rtdb.firebaseio.com",
+    "project_id": "nativeahmad",
+    "storage_bucket": "nativeahmad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380923995430:android:2608b0246f3a1735f14de7",
+        "android_client_info": {
+          "package_name": "com.inputdatatrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380923995430-f4po2l1u6drcog890f7an4uv9o306uvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKqf-GwSXgf7hv7HtCjFnsDzm6Q6hIlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380923995430-f4po2l1u6drcog890f7an4uv9o306uvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
